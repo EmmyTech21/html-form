@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit">
+        <fieldset>
+        <label for="add-user">ADD USER</label>
+
+        <div class="first-name">
+            <label for="first-name">FirstName</label>
+            <input type="text" value="Emmanuel">
+        </div>
+        <div class="last-name">
+            <label for="last-name">LastName</label>
+            <input type="text" value="John">
+        </div>
+
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email">
+        </div>
+
+        <div class="role">
+            <label for="role">Role</label>
+            <select name="user_role_name" id="role">
+            <option value="admin">admin</option>
+            <option value="user">User</option>
+            <option value="Guest">Guest</option>
+        </select>
+        </div>
+
+        <div class="expire">
+            <label for="expire">Expiration</label>
+            <input type="date" value="28/09/1996">
+        </div>
+
+        <div class="bio">
+            <label for="bio">Bio</label>
+            <textarea name="your bio here" id="bio" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <div class="button">
+            <input type="button" value="submit">
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
